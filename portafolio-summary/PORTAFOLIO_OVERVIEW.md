@@ -14,7 +14,7 @@ This document provides an integrative view of the three multivariate techniques 
 
 ---
 
-## 1) How the three methods relate to each other 
+## How the three methods relate to each other 
 
 All three methods are multivariate techniques used to summarize and extract structure from datasets with many variables, yet they serve different analytical purposes and can be combined as part of a modeling pipeline:
 
@@ -35,7 +35,7 @@ Inter-relationships:
 
 ---
 
-## 2) What types of business questions each method answers 
+## What types of business questions each method answers 
 
 - **Factor Analysis (Case 1 — Customer Satisfaction)**
 	- What underlying dimensions explain many correlated survey items?
@@ -54,7 +54,7 @@ Inter-relationships:
 
 ---
 
-## 3) When to use each multivariate technique — Practical guidance 
+## When to use each multivariate technique  
 
 Use the technique that matches the project goal and data structure. Here are practical rules of thumb:
 
@@ -82,7 +82,7 @@ Use the technique that matches the project goal and data structure. Here are pra
 
 ---
 
-## 4) Conceptual Map — Relationships between methods  
+## Conceptual Map — Relationships between methods  
 
 Below is a compact visual map showing how these methods usually connect in a data analysis pipeline. Replace 'X' with EFA/PCA as needed depending on the data and the project goal.
 
@@ -98,7 +98,7 @@ Below is a compact visual map showing how these methods usually connect in a dat
 	 - EFA -> Regression / Predictive models -> Output business KPIs (e.g., overall satisfaction / revenue)
 	 - Clustering -> Segment-based experiments -> A/B test targeted campaigns
 
-ASCII conceptual map (simple):
+ASCII conceptual map:
 
 Raw Data (many features)
  ├─> EFA (factors) ──> Factor Scores ──> Predictive Models / Reports
@@ -108,7 +108,7 @@ Raw Data (many features)
 
 ---
 
-## 5) Quick Decision Tree — Which method should I use? 
+## Which method should I use? 
 
 - If your objective is to reduce many survey items into interpretable factors: use **EFA**.
 - If you need to discover market/customer segments and there are no labels: use **clustering** (and PCA for visualization).
@@ -117,7 +117,7 @@ Raw Data (many features)
 
 ---
 
-## 6) Case study references in this repo 
+## Case study references in this repo 
 
 - `case-01-factor-analysis` (Customer Satisfaction) — EFA used for latent drivers and as predictors for regressions. See `costomer_satisfaction.ipynb` and `visualizations`.
 - `case-02-discriminant-analysis` (Credit Risk) — LDA & QDA applied to binary default classification. See `credit_risk_analysis.ipynb`.
@@ -125,13 +125,14 @@ Raw Data (many features)
 
 ---
 
-## 7) Short recommendations for practitioners (Actionable checklist) 
+## Short recommendations for practitioners 
 
 1. Start with simple exploratory analysis: correlation matrix, distributions, and PCA/EFA to understand dimensionality.
 2. If survey data: prefer EFA for interpretability; compute factor scores and feed them into models used for business KPIs.
 3. If segmentation is needed and labels are unknown: perform clustering; validate clusters and translate them into business actions.
 4. If you have labeled outcomes and need a classifier with interpretability: use LDA/QDA; run cross-validation and check distributional assumptions.
 5. Combine approaches when needed: cluster -> validate separability with discriminant analysis -> generate operational classifiers; use EFA/PCA for feature compression.
+
 
 
 
