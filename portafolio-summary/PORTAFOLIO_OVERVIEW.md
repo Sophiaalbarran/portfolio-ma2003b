@@ -1,4 +1,5 @@
-# Portfolio Overview — Multivariate Methods Integrative Document
+# Portfolio Overview 
+## Multivariate Methods Integrative Document
 
 This document provides an integrative view of the three multivariate techniques used across the portfolio cases: Exploratory Factor Analysis (EFA), Discriminant Analysis (LDA / QDA) and Clustering (Hierarchical + K-Means; PCA used for projection/visualization). It explains how the methods relate, the business questions they answer, when to use each technique, and a conceptual map describing their relationships and typical pipelines.
 
@@ -132,6 +133,7 @@ Raw Data (many features)
 3. If segmentation is needed and labels are unknown: perform clustering; validate clusters and translate them into business actions.
 4. If you have labeled outcomes and need a classifier with interpretability: use LDA/QDA; run cross-validation and check distributional assumptions.
 5. Combine approaches when needed: cluster -> validate separability with discriminant analysis -> generate operational classifiers; use EFA/PCA for feature compression.
+
 
 
 
