@@ -82,7 +82,7 @@ Use the technique that matches the project goal and data structure. Here are pra
 
 ---
 
-## 4) Conceptual Map — Relationships between methods (English) 
+## 4) Conceptual Map — Relationships between methods  
 
 Below is a compact visual map showing how these methods usually connect in a data analysis pipeline. Replace 'X' with EFA/PCA as needed depending on the data and the project goal.
 
@@ -133,13 +133,5 @@ Raw Data (many features)
 4. If you have labeled outcomes and need a classifier with interpretability: use LDA/QDA; run cross-validation and check distributional assumptions.
 5. Combine approaches when needed: cluster -> validate separability with discriminant analysis -> generate operational classifiers; use EFA/PCA for feature compression.
 
----
 
-If you'd like, I can also:
-- Add a small diagram image (SVG) to `visualizations/` showing the conceptual map; or
-- Generate a one-page slide summary or poster for stakeholder distribution.
-
----
-
-Generated based on the content and case-readme files in this repository (see case folders for detailed notebooks and visualizations). For direct repo links, open `case-01-factor-analysis` (EFA), `case-02-discriminant-analysis` (LDA/QDA) and `caso-03-megamart-customer` (Clustering + PCA).
 
