@@ -76,6 +76,9 @@ customer_tenure_months, recency_days
 Returns:
 return_rate
 
+### Data Dictionary
+A complete data dictionary — including variable definitions, scales, ranges, and data quality notes — is available below:
+[Open Data Dictionary](data/RETAIL_CUSTOMER_DATA_DICTIONARY.pdf)
 
 ## (Main Findings)
 
@@ -101,7 +104,7 @@ Silhouette score of final model: ~0.317, good for real-world behavioral data.
 
 **(Featured Visualizations)**
 
-Las visualizaciones están en la carpeta /visualizations.
+The visualizations are available here: /visualizations.
 
 Customer Distributions
 
@@ -175,5 +178,6 @@ Integrate segmentation into CRM; monitor cluster transitions; refine personaliza
 Add product-category features for more granular segmentation.
 
 Build a churn prediction model using clusters as predictive features.
+
 
 Track customer movement between clusters over time (behavioral drift).
