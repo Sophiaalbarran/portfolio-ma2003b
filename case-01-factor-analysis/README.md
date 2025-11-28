@@ -70,7 +70,6 @@ Understanding latent drivers of customer satisfaction enables prioritized invest
   - Factor 5 — Customer Support & Service Excellence (support_responsiveness, training_quality, documentation_help)
 - Predictive modeling (regression on factor scores) shows **Factor 1 (Technical Excellence & Innovation)** is the dominant driver of `overall_satisfaction` with standardized effect **β ≈ 0.64**. The notebook reports an R² contribution vector (approx) of **[0.637, 0.026, 0.012, 0.034, 0.019]**, highlighting Factor 1’s disproportionate share of explained variance.
 
-> Replace these numbers with alternative model runs if you perform cross-validation or alternative model specifications.
 
 ## (Featured visualization)
 
