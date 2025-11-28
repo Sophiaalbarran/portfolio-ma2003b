@@ -99,27 +99,13 @@ PCA visualization explains 61.98% of total variance (PC1 = 41%, PC2 = 21%).
 
 Silhouette score of final model: ~0.317, good for real-world behavioral data.
 
-**(Featured Visualizations)**
+## Featured Visualization  
+To be included in the repository:
 
-Las visualizaciones están en la carpeta /visualizations.
+**K-Means Clusters in PCA Space (PC1 vs PC2)**
 
-Customer Distributions
+![PCA Clusters](visualizations/PC1_VS_PC2.png)
 
-Correlation Matrix
-
-Dendrograms (Comparison)
-
-Ward Detailed Dendrogram
-
-Elbow Plot
-
-Elbow + Silhouette Analysis
-
-Silhouette Plot
-
-Cluster Visualization (PCA)
-
-Cluster Profiles Heatmap
 
 **(Model performance metrics)**
 
@@ -175,5 +161,6 @@ Integrate segmentation into CRM; monitor cluster transitions; refine personaliza
 Add product-category features for more granular segmentation.
 
 Build a churn prediction model using clusters as predictive features.
+
 
 Track customer movement between clusters over time (behavioral drift).
