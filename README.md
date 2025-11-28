@@ -110,6 +110,7 @@ jupyter nbconvert --to notebook --execute caso-03-megamart-customer/notebooks/re
 
 Brief tree and description of main folders:
 
+```
 mi-portfolio-ma2003b/
 │
 ├── README.md                          # Project overview (this file)
@@ -155,6 +156,7 @@ mi-portfolio-ma2003b/
 │
 └── presentation/
     └── final_portfolio_presentation.pdf
+```
 
 
 **Short folder descriptions**
