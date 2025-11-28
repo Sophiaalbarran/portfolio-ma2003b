@@ -55,6 +55,8 @@ Jupyter Notebook (retail.ipynb)
 Utility functions:
 utils.py (scaling, clustering, PCA, and plotting helpers)
 
+- **ChatGPT** for refinement of documentation, code assistance, LaTeX generation, and report structuring
+
 (Data)
 
 ## Dataset description:

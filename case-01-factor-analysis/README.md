@@ -10,6 +10,28 @@ The client is a B2B services firm measuring customer perceptions and commercial 
 
 Understanding latent drivers of customer satisfaction enables prioritized investments (support, delivery, product improvements, pricing transparency) to reduce churn, increase renewals and grow revenue with measurable ROI.
 
+**Tools and libraries used:**
+
+- **ChatGPT** for refinement of documentation, code assistance, LaTeX generation, and report structuring  
+
+**Core Analysis & Data Manipulation:**
+- `pandas` — Data manipulation, cleaning, and aggregation
+- `numpy` — Numerical computations and array operations
+- `scipy` — Scientific computing (e.g., correlation matrices, statistical tests)
+- `scikit-learn` — Preprocessing, scaling, and model evaluation utilities
+- `statsmodels` — Statistical modeling, regression, and test functions
+- `factor_analyzer` — Exploratory Factor Analysis (EFA), factor extraction, and rotation
+
+**Visualization & Reporting:**
+- `matplotlib` — Low-level plotting for customization and publication-quality figures
+- `seaborn` — High-level statistical visualizations (heatmaps, correlation plots)
+- `plotly` — Interactive plots and dashboards for stakeholder presentations
+
+**Execution Environment:**
+- `Jupyter Notebook` — Interactive notebook (`costumer_satisfaction.ipynb`) for reproducible analysis
+- `Python 3.10` — Programming language version
+
+---
 ## (Methodology)
 
 **Multivariate method applied:**
@@ -19,12 +41,6 @@ Understanding latent drivers of customer satisfaction enables prioritized invest
 **Justification of the choice:**
 
 - EFA reduces many correlated survey items into a smaller set of interpretable latent factors, improving interpretability and avoiding multicollinearity in downstream predictive models. Regressions on factor scores provide direct, actionable effect sizes.
-
-**Tools and libraries used:**
-
-- Python: `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `factor_analyzer`
-- Visualization: `matplotlib`, `seaborn`, `plotly`
-- Execution: `Jupyter` notebook (`costomer_satisfaction.ipynb`)
 
 ## (Data)
 
