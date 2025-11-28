@@ -77,7 +77,7 @@ Returns:
 return_rate
 
 
-## (Main Findings)
+## Main Findings
 
 Optimal number of clusters: 4, validated through hierarchical clustering, elbow method, and silhouette scores.
 
@@ -107,7 +107,7 @@ To be included in the repository:
 ![PCA Clusters](visualizations/PC1_VS_PC2.png)
 
 
-**(Model performance metrics)**
+## Model performance metrics
 
 Silhouette Score: ~0.317
 
@@ -119,7 +119,7 @@ PCA Separation: clear separation across PC1 and PC2
 
 Cluster means (behavioral profiles) are available in the notebook.
 
-**(Business recommendations)**
+## Business recommendations
 
 Retain High-Value Loyalists (Cluster 0):
 
@@ -145,7 +145,7 @@ Upsell opportunities based on basket patterns
 
 Reinforce long-term engagement
 
-**(Expected impact)**
+## Expected impact
 
 Short term (1–3 months):
 Activation campaigns for Cluster 1; loyalty perks for Cluster 0.
@@ -156,7 +156,7 @@ Conversion tests for Cluster 3; curated recommendations for Cluster 2.
 Long term (>9 months):
 Integrate segmentation into CRM; monitor cluster transitions; refine personalization.
 
-**(Next steps)**
+## Next steps
 
 Add product-category features for more granular segmentation.
 
@@ -164,3 +164,4 @@ Build a churn prediction model using clusters as predictive features.
 
 
 Track customer movement between clusters over time (behavioral drift).
+
