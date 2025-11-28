@@ -1,5 +1,6 @@
 # MegaMart Customer Segmentation ReadMe 
-**(Business Context)**
+
+**Business Context**
 
 ## Client & problem description:
 
@@ -22,7 +23,7 @@ Allocate marketing resources efficiently with measurable ROI
 
 Segmentation also helps define targeted campaigns, improve customer lifetime value, and support CRM personalization.
 
-**(Methodology)**
+**Methodology**
 
 ## Multivariate methods applied:
 
@@ -76,6 +77,9 @@ customer_tenure_months, recency_days
 Returns:
 return_rate
 
+### Data Dictionary
+A complete data dictionary — including variable definitions, scales, ranges, and data quality notes — is available below:
+[Open Data Dictionary](data/RETAIL_CUSTOMER_DATA_DICTIONARY.pdf)
 
 ## Main Findings
 
@@ -164,4 +168,5 @@ Build a churn prediction model using clusters as predictive features.
 
 
 Track customer movement between clusters over time (behavioral drift).
+
 
